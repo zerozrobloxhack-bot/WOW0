@@ -39,6 +39,7 @@ local function updateCategories()
             ["EVIL ULTRAS"]   = MainFrame:FindFirstChild("EVIL ULTRAS"),
             ["MULTIVERSALS"]  = MainFrame:FindFirstChild("MULTIVERSALS"),
             ["REIONICS"]      = MainFrame:FindFirstChild("REIONICS"),
+            ["ULTRA SUITS"]   = MainFrame:FindFirstChild("ULTRA SUITS")
         }
         
         for name, obj in pairs(Categories) do
@@ -89,7 +90,7 @@ local Ultraman = Window:Tab({
     Locked = false,
 })
 
-Ultraman:Section({ Title = "เลือกหมวดตัวละคร" })
+Ultraman:Section({ Title = "เลือกหมวดตัวละครเลยสุดหล่อ" })
 
 local categoryButtons = {
     {name = "TRINITIUM",     title = "Open Trinity"},
@@ -97,6 +98,7 @@ local categoryButtons = {
     {name = "SEIJIN",        title = "Open SEIJIN"},
     {name = "EVIL ULTRAS",   title = "Open EVIL ULTRAS"},
     {name = "MULTIVERSALS",  title = "Open MULTIVERSALS"},
+    {name = "ULTRA SUITS",  title = "Open ULTRA SUITS"},
     {name = "REIONICS",      title = "Open REIONICS", desc = "ไม่รู้ตัวอะไร (555)"}
 }
 
